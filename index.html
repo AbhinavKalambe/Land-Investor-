@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerraVest India | Premium Land Investment Opportunities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a362e; /* Dark Hunter Green */
+            --accent: #c5a059;  /* Muted Gold */
+            --light: #f9f7f2;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--light);
+            color: #333;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(26, 54, 46, 0.8), rgba(26, 54, 46, 0.8)), 
+                        url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+        }
+        .btn-primary {
+            background-color: var(--accent);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #b08d48;
+            transform: translateY(-2px);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: var(--accent);
+            transition: width 0.3s;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter flex items-center gap-2" style="color: var(--primary);">
+                <i class="fa-solid fa-mountain-sun"></i>
+                TERRAVEST INDIA
+            </div>
+            <div class="hidden md:flex gap-8 font-medium text-gray-600">
+                <a href="#listings" class="nav-link">Listings</a>
+                <a href="#why-land" class="nav-link">Why Invest?</a>
+                <a href="#process" class="nav-link">Our Process</a>
+                <a href="#calculator" class="nav-link">ROI Calculator</a>
+            </div>
+            <a href="#contact" class="btn-primary text-white px-6 py-2 rounded-full font-semibold text-sm">
+                Inquire Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient h-screen flex items-center justify-center text-center text-white px-6 pt-20">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-7xl mb-6 leading-tight">Securing Future <br>Through Bharat's Soil.</h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-200 font-light">Institutional grade agricultural, commercial, and managed farmland opportunities across India.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#listings" class="btn-primary px-8 py-4 rounded-lg text-lg font-bold shadow-lg">View Active Projects</a>
+                <a href="#why-land" class="bg-white/10 backdrop-blur-md border border-white/30 hover:bg-white/20 px-8 py-4 rounded-lg text-lg font-bold transition">Investor Prospectus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <div class="bg-white py-8 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-between items-center gap-8 opacity-50 grayscale">
+            <span class="text-xl font-bold">RERA COMPLIANT</span>
+            <span class="text-xl font-bold">BHARAT LAND TRUST</span>
+            <span class="text-xl font-bold">AGRI-TECH INDIA</span>
+            <span class="text-xl font-bold">SMART CITY PARTNER</span>
+        </div>
+    </div>
+
+    <!-- Listings Section -->
+    <section id="listings" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="flex justify-between items-end mb-16">
+            <div>
+                <h2 class="text-4xl text-gray-900 mb-4">Prime Opportunities</h2>
+                <div class="w-20 h-1" style="background-color: var(--accent);"></div>
+            </div>
+            <a href="#" class="text-gray-500 hover:text-black transition">Explore 50+ New Projects <i class="fa-solid fa-arrow-right ml-2"></i></a>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Property 1 -->
+            <div class="card bg-white rounded-2xl overflow-hidden shadow-sm transition-all duration-300">
+                <div class="relative h-64">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Coffee Plantation">
+                    <span class="absolute top-4 left-4 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">MANAGED FARMLAND</span>
+                </div>
+                <div class="p-6 border border-t-0 border-gray-100">
+                    <h3 class="text-2xl mb-2">Coorg Highlands</h3>
+                    <p class="text-gray-500 mb-4"><i class="fa-solid fa-location-dot mr-2"></i>Kodagu, Karnataka</p>
+                    <div class="flex justify-between items-center border-t border-gray-100 pt-4">
+                        <div>
+                            <p class="text-xs text-gray-400 uppercase font-bold">Size</p>
+                            <p class="font-semibold">2.5 Acres</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-xs text-gray-400 uppercase font-bold">Starting Price</p>
+                            <p class="text-xl font-bold" style="color: var(--primary);">₹85.0 Lacs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Property 2 -->
+            <div class="card bg-white rounded-2xl overflow-hidden shadow-sm transition-all duration-300">
+                <div class="relative h-64">
+                    <img src="https://images.unsplash.com/photo-1594495894542-a471467e49f1?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Development Land">
+                    <span class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">COMMERCIAL HUB</span>
+                </div>
+                <div class="p-6 border border-t-0 border-gray-100">
+                    <h3 class="text-2xl mb-2">Delhi-NCR Logistics Zone</h3>
+                    <p class="text-gray-500 mb-4"><i class="fa-solid fa-location-dot mr-2"></i>Greater Noida, UP</p>
+                    <div class="flex justify-between items-center border-t border-gray-100 pt-4">
+                        <div>
+                            <p class="text-xs text-gray-400 uppercase font-bold">Size</p>
+                            <p class="font-semibold">1.2 Acres</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-xs text-gray-400 uppercase font-bold">Price</p>
+                            <p class="text-xl font-bold" style="color: var(--primary);">₹4.20 Cr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Property 3 -->
+            <div class="card bg-white rounded-2xl overflow-hidden shadow-sm transition-all duration-300">
+                <div class="relative h-64">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Hillside Land">
+                    <span class="absolute top-4 left-4 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full">ECO-TOURISM</span>
+                </div>
+                <div class="p-6 border border-t-0 border-gray-100">
+                    <h3 class="text-2xl mb-2">Alibaug Coastal Plot</h3>
+                    <p class="text-gray-500 mb-4"><i class="fa-solid fa-location-dot mr-2"></i>Raigad, Maharashtra</p>
+                    <div class="flex justify-between items-center border-t border-gray-100 pt-4">
+                        <div>
+                            <p class="text-xs text-gray-400 uppercase font-bold">Size</p>
+                            <p class="font-semibold">22,000 Sq Ft</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-xs text-gray-400 uppercase font-bold">Price</p>
+                            <p class="text-xl font-bold" style="color: var(--primary);">₹1.75 Cr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Invest Section -->
+    <section id="why-land" class="bg-[#1a362e] py-24 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl md:text-5xl mb-8">Why Invest in Indian Land?</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-4">
+                        <div class="bg-white/10 p-4 rounded-xl h-fit">
+                            <i class="fa-solid fa-file-contract text-2xl" style="color: var(--accent);"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Clear Title Deeds</h4>
+                            <p class="text-gray-400">Every plot undergoes a 30-year title verification process to ensure zero litigation and 100% legal security.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="bg-white/10 p-4 rounded-xl h-fit">
+                            <i class="fa-solid fa-road text-2xl" style="color: var(--accent);"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Infrastructure Growth</h4>
+                            <p class="text-gray-400">We target areas near upcoming Expressways and Smart City corridors to guarantee capital appreciation.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="bg-white/10 p-4 rounded-xl h-fit">
+                            <i class="fa-solid fa-gem text-2xl" style="color: var(--accent);"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Wealth Preservation</h4>
+                            <p class="text-gray-400">Land remains the most culturally significant and historically rewarding asset class in the Indian economy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=1000" class="rounded-3xl shadow-2xl rotate-2" alt="Indian Landscape">
+                <div class="absolute -bottom-6 -left-6 bg-[#c5a059] p-8 rounded-2xl text-[#1a362e]">
+                    <p class="text-4xl font-bold">18-22%</p>
+                    <p class="font-bold text-sm uppercase">YoY Appreciation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator Section -->
+    <section id="calculator" class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl mb-4">Investment Appreciation Calculator</h2>
+                <p class="text-gray-500 italic">Project your future wealth based on Indian land market trends.</p>
+            </div>
+            
+            <div class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-gray-100">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="space-y-8">
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-4">Initial Investment (₹ Lacs)</label>
+                            <input type="range" id="inv-amount" min="10" max="500" step="5" value="50" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-[#c5a059]">
+                            <div class="flex justify-between text-lg font-bold mt-2" id="inv-display">₹50 Lacs</div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-4">Holding Period (Years)</label>
+                            <input type="range" id="inv-years" min="1" max="15" step="1" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-[#c5a059]">
+                            <div class="flex justify-between text-lg font-bold mt-2" id="year-display">5 Years</div>
+                        </div>
+                    </div>
+                    <div class="bg-[#1a362e] p-8 rounded-2xl text-white text-center flex flex-col justify-center">
+                        <p class="text-sm uppercase tracking-widest text-gray-400 mb-2">Estimated Value</p>
+                        <p class="text-4xl font-bold mb-4" id="total-return" style="color: var(--accent);">₹1.01 Cr</p>
+                        <p class="text-xs text-gray-400">*Based on benchmark 15% annual growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="bg-white rounded-[3rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-gray-100">
+            <div class="md:w-1/2 p-12 md:p-20 bg-gray-900 text-white flex flex-col justify-center">
+                <h2 class="text-5xl mb-6 leading-tight">Start Your <br>Legacy Here.</h2>
+                <p class="text-gray-400 text-lg mb-10">Request a virtual tour or site visit. Our relationship managers are available in all metro cities.</p>
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-phone text-accent" style="color: var(--accent);"></i>
+                        <span>+91 1800-TERRA-INDIA</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-envelope text-accent" style="color: var(--accent);"></i>
+                        <span>contact@terravest.in</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 p-12 md:p-20">
+                <form id="inquiryForm" class="space-y-6">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-400 mb-2">Full Name</label>
+                            <input type="text" class="w-full p-4 bg-gray-50 border border-gray-100 rounded-xl outline-none focus:border-accent" placeholder="Rajesh Kumar">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-400 mb-2">Mobile Number</label>
+                            <input type="tel" class="w-full p-4 bg-gray-50 border border-gray-100 rounded-xl outline-none focus:border-accent" placeholder="+91 98XXX-XXXXX">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-gray-400 mb-2">Interested Region</label>
+                        <select class="w-full p-4 bg-gray-50 border border-gray-100 rounded-xl outline-none focus:border-accent">
+                            <option>North India (NCR, Rajasthan)</option>
+                            <option>South India (Bangalore, Kerala)</option>
+                            <option>West India (Mumbai, Pune, Alibaug)</option>
+                            <option>Managed Farmlands</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-gray-400 mb-2">Investment Goal</label>
+                        <textarea class="w-full p-4 bg-gray-50 border border-gray-100 rounded-xl outline-none focus:border-accent h-32" placeholder="Tell us if you're looking for retirement, commercial development, or pure appreciation..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full btn-primary text-white py-5 rounded-xl text-lg font-bold shadow-xl">
+                        Schedule Consultation
+                    </button>
+                    <div id="formStatus" class="hidden text-center text-green-600 font-bold mt-4">
+                        Thank you! Our relationship manager will call you within 24 hours.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="text-3xl font-bold mb-6" style="color: var(--primary);">TERRAVEST INDIA</div>
+                    <p class="text-gray-500 max-w-sm mb-8">Bringing transparency and institutional rigour to Bharat's land market.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-400 hover:text-accent transition"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-400 hover:text-accent transition"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-400 hover:text-accent transition"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6">Explore</h5>
+                    <ul class="space-y-4 text-gray-500">
+                        <li><a href="#" class="hover:text-black">Farmland Projects</a></li>
+                        <li><a href="#" class="hover:text-black">Commercial Plots</a></li>
+                        <li><a href="#" class="hover:text-black">Legal Documentation</a></li>
+                        <li><a href="#" class="hover:text-black">NRI Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6">Presence</h5>
+                    <ul class="space-y-4 text-gray-500">
+                        <li>Bengaluru</li>
+                        <li>Mumbai</li>
+                        <li>Gurugram</li>
+                        <li>Hyderabad</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 pt-10 text-center text-gray-400 text-sm">
+                &copy; 2024 TerraVest India Assets Pvt Ltd. All Rights Reserved. Member of BHARAT-REF.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Calculator Logic
+        const amountInput = document.getElementById('inv-amount');
+        const yearsInput = document.getElementById('inv-years');
+        const amountDisplay = document.getElementById('inv-display');
+        const yearsDisplay = document.getElementById('year-display');
+        const totalReturn = document.getElementById('total-return');
+
+        function formatCurrency(val) {
+            if (val >= 100) {
+                return `₹${(val/100).toFixed(2)} Cr`;
+            }
+            return `₹${val} Lacs`;
+        }
+
+        function updateCalculator() {
+            const principalLacs = parseFloat(amountInput.value);
+            const years = parseInt(yearsInput.value);
+            const rate = 0.15; // 15% Indian land appreciation (conservative)
+
+            const futureValueLacs = principalLacs * Math.pow((1 + rate), years);
+            
+            amountDisplay.innerText = formatCurrency(principalLacs);
+            yearsDisplay.innerText = `${years} Year${years > 1 ? 's' : ''}`;
+            totalReturn.innerText = formatCurrency(Math.round(futureValueLacs));
+        }
+
+        amountInput.addEventListener('input', updateCalculator);
+        yearsInput.addEventListener('input', updateCalculator);
+
+        // Form Logic
+        const form = document.getElementById('inquiryForm');
+        const status = document.getElementById('formStatus');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            form.style.opacity = '0.5';
+            form.querySelectorAll('input, select, textarea, button').forEach(el => el.disabled = true);
+            
+            setTimeout(() => {
+                form.classList.add('hidden');
+                status.classList.remove('hidden');
+            }, 1000);
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Navigation Background Change on Scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+            } else {
+                nav.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body>
+</html>
